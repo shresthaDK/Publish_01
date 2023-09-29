@@ -6,7 +6,7 @@ import numpy as np
 np.random.seed(1)
 
 app = Dash(__name__)
-
+server=app.server
 
 app.layout = html.Div([
     html.H4('Rendering options of plots in Dash '),
