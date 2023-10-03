@@ -36,4 +36,5 @@ def display_graph(render_option):
         return dcc.Graph(figure=fig)
 
 
-app.run_server(debug=True)
+#app.run_server(debug=True)
+app.run_server(host="0.0.0.0",debug=True)
